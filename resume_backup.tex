@@ -1,0 +1,119 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[line, overlapped]{res} 
+
+% the margin option causes section titles to appear to the left of body text 
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{fontspec,xunicode}
+\setmainfont{Myriad Pro}
+
+\usepackage{multicol}                % columns env.
+  \setlength{\multicolsep}{0pt}
+\usepackage{paralist}                % compact lists
+
+
+\begin{document} 
+
+\name{Haishan Ye}
+\address{\oldstylenums{1133} W \oldstylenums{36}th Pl Apt.\oldstylenums{6}, Los Angeles, CA \oldstylenums{90007}} 
+\address{(\oldstylenums{213}) \oldstylenums{806}-\oldstylenums{0803}, haishany@usc.edu, gitub.com/gabrielyeah}
+
+ 
+\begin{resume} 
+
+\section{EDUCATION} 
+University of Southern California, Los Angeles, CA \hfill August \oldstylenums{2013} - May \oldstylenums{2015} \\
+M.S. in Computer Science, GPA \oldstylenums{3.63} \\ [-10pt]
+\begin{multicols}{3}
+  \begin{compactitem}[$\circ$]
+    \item Foundation of Artificial Intelligence
+    \item Software Engineering
+    \item Database Management System
+    \item Analysis of Algorithms
+    \item Web Technologies
+    \item Natural Language Processing
+  \end{compactitem} 
+\end{multicols}
+
+Tongji University, Shanghai, China \hfill September \oldstylenums{2009} - June \oldstylenums{2013} \\
+B.E. in Software Engineering, GPA \oldstylenums{3.63}, ranking top \oldstylenums{4.8}\% in School of Software Engineering
+
+\section{TECHNICAL \\ SKILLS}
+{\bf Programming Languages:} \hspace{10 pt}Objective-C, JAVA, Python, C\#, C/C++\\
+{\bf Operating Systems:} \hspace{38 pt}iOS, OS X, Ubuntu, Windows \\
+{\bf Frameworks:} \hspace{66 pt}Cocoa Touch, Core Data, Core Animation, GWT, J2EE \\
+{\bf Develop Environments:}  \hspace{21 pt}Xcode, Eclipse, Visual Studio, Sublime 2 \\
+
+\section{EXPERIENCE}
+ {\bf Core Developer,} VCard, Tongji University, Shanghai, China \hfill September \oldstylenums{2011} - August \oldstylenums{2012}\\
+ VCard is a \oldstylenums{2}-million-user Sina Weibo reader on iPad (Available on App Store).
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+
+  \item Designed the architecture and implemented the main functions for the application
+ 
+  \item Customized user views with rich animations and gesture support
+ 
+  \item Improved app performance in both memory and animation efficiency
+
+  \item Refactored the app for three major updates in both framework and UI design
+ 
+ \end{itemize}
+
+{\bf Core Developer,} CDI Lab System, Tongji University, Shanghai, China \hfill  January \oldstylenums{2013} - November \oldstylenums{2013}\\
+CDI Lab system is a lab controlling system for Center of Digital Innovation, Tongji University.
+\begin{itemize} \itemsep -2pt %reduce space between items
+  
+  \item Developed 'CDI Official App' for iPhone independently (Available on App Store)
+  
+  \item Built iPad control panel for A/C and lighting using web service
+  
+  \item Constructed the backend server and created web services for mobile apps
+  
+  \item Customized several UI components on iOS for future reuse
+
+\end{itemize}
+
+{\bf Core Developer,} LiveRiot Social Media Enhancement, USC, Los Angeles, CA \hfill  August \oldstylenums{2013} - December \oldstylenums{2013}
+\begin{itemize} \itemsep -2pt %reduce space between items
+  
+  \item Implemented social network sharing components for LiveRiot mobile app 
+  
+  \item Negotiated with clients about requirements for the application
+
+\end{itemize}
+
+{\bf Research Assistant,} Software Engineering Lab, Tongji University, Shanghai, China \hfill March \oldstylenums{2011} - December \oldstylenums{2011} 
+\begin{itemize} \itemsep -2pt
+              
+  \item Selected as research assistant in national project about improving health care service
+  
+  \item Implemented web services for the project website
+  
+  \item Integrated \oldstylenums{3}rd-party framework including Google Maps into existing website
+    
+\end{itemize}
+
+{\bf Software Engineer Intern,} Spicy Horse, Inc., Shanghai, China \hfill October \oldstylenums{2011} - November \oldstylenums{2011}
+\begin{itemize} \itemsep -2pt
+ 
+  \item Developed a physical game on iOS platform using Cocos2D
+  
+  \item Constructed the physical environment in the game
+  
+  \item Built the basic game logic
+  
+\end{itemize}
+
+\section{ACADEMIC \\ HONORS} 
+WWDC \oldstylenums{2012} Student Scholarship, Apple, Inc. \hfill June \oldstylenums{2012} \\
+National Scholarship in China \hfill October \oldstylenums{2011} \\
+
+\section{INTERESTS}
+Photography, Guitar
+
+\end{resume} 
+\end{document} 
+

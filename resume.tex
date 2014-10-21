@@ -1,0 +1,112 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[line, overlapped]{res}
+
+% the margin option causes section titles to appear to the left of body text
+
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\usepackage{multicol}                % columns env.
+  \setlength{\multicolsep}{0pt}
+\usepackage{paralist}                % compact lists
+
+\begin{document}
+
+\name{Haishan Ye}
+\address{1133 W 36th Pl Apt 6, Los Angeles, CA 90007}
+\address{(213) 806-0803, haishany@usc.edu, gitub.com/gabrielyeah}
+
+\begin{resume}
+
+\section{EDUCATION}
+University of Southern California, Los Angeles, CA \hfill August 2013 - May 2015 \\
+M.S. in Computer Science, GPA 3.75\\
+Related Coursework: Information Integration on the Web, Web Technologies, Database Systems, Applied Natural Language Processing,
+Advanced Mobile Devices and Game Consoles\\
+\\
+Tongji University, Shanghai, China \hfill September 2009 - June 2013 \\
+B.E. in Software Engineering, GPA 3.63
+
+\section{TECHNICAL SKILLS}
+\textbf{Programming Languages:} Objective-C, JAVA, Python, C\#, C/C++, Javascript, PHP, SQL \\
+\textbf{Frameworks:} Cocoa Touch, Core Data, Core Animation, J2EE, Oracle Databases, AJAX, jQuery, .Net\\
+\textbf{Development Tools:} Xcode, Sublime Text, Atom, Eclipse, Coda, Visual Studio, Git, Perforce
+
+\section{EXPERIENCE}
+
+\textbf{iOS Software Engineer Intern}, TiVo Inc., San Jose, CA \hfill June 2014 - August 2014
+ \begin{itemize} \itemsep -2pt
+ 
+ \item Designed and implemented a Today View extension prototype using iOS 8 new APIs
+ 
+ \item Proposed new features based on iOS 8 investigation, which will be applied in upcoming version
+ 
+ \item Improved third-party library management workflow by integrating CocoaPods into current project
+ 
+ \end{itemize}
+
+\textbf{Core Developer}, VCard, Tongji University, Shanghai, China \hfill September 2011 - August 2012\\
+ VCard is a 2-million-user Sina Weibo reader on iPad
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+
+  \item Devised the architecture and implemented the main functions for the application
+
+  \item Enriched user experience by customizing UI with animations and gesture support
+
+  \item Optimized app performance in both memory usage and animation efficiency
+
+  \item Refactored the code for three major updates in both framework and UI design
+
+ \end{itemize}
+ 
+\textbf{Project Lead}, Wild Piece, USC, Los Angeles, CA \hfill August 2014 - December 2014\\
+Wild Piece is a strategy game project running on iOS
+\begin{itemize} \itemsep -2pt %reduce space between items
+  \item Planned the project lifecycle based on Scrum and coordinated related resource
+  
+  \item Designed and implemented the logic layer architecture using Swift and SpriteKit
+  
+  \item Identified and addressed project issues using Github
+
+\end{itemize}
+ 
+ \textbf{iOS Software Engineer Intern}, GlanceAt team, Idealab, Pasadena, CA \hfill September 2014 - Present
+ \begin{itemize} \itemsep -2pt
+ 
+ \item Constructed fully featured calendar component for GlanceAt mail client
+ 
+ \item Prototyped iOS 8 style notifications
+  
+ \end{itemize}
+
+\textbf{Core Developer}, CDI Lab System, Tongji University, Shanghai, China \hfill January 2013 - November 2013\\
+CDI Lab system is a client-server suite for Center of Digital Innovation, Tongji University
+\begin{itemize} \itemsep -2pt %reduce space between items
+
+  \item Developed 'CDI Official App' for iPhone independently (Available on App Store)
+  
+  \item Developed and deployed iPad app for controlling A/C and lighting in the lab environment
+  
+  \item Constructed the backend server and built RESTful web APIs for mobile apps
+
+  \item Created several reusable customized UI components for iOS project
+
+\end{itemize}
+
+\textbf{Core Developer}, NLP Course Project, USC, Los Angeles, CA \hfill  January 2014 - March 2014
+\begin{itemize} \itemsep -2pt %reduce space between items
+
+  \item Built text classifiers using Naive Bayes and Perceptron
+
+  \item Developed part-of-speech tagging and name entity recognition programs
+
+\end{itemize}
+
+\section{ACADEMIC HONORS}
+WWDC 2012 Student Scholarship, Apple Inc. \hfill June 2012 \\
+National Scholarship in China \hfill October 2011\\
+
+\end{resume}
+\end{document}
